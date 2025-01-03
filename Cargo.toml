@@ -1,0 +1,15 @@
+[package]
+name = "directed-diameter"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "directed_diameter"
+path = "src/lib.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ac-library-rs = "0.1.1"
+proconio = "0.5.0"
+rand = "0.8.5"
